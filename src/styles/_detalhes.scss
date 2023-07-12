@@ -1,0 +1,26 @@
+@use 'variaveis';
+
+.detalhes {
+    padding: 0 5.6vw;
+
+    &__tab {
+        &__button {
+            color: variaveis.$corTextoSecundario;
+            background: none;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            border: none;
+            padding-bottom: 15px;
+            padding-top: 10px;
+        }
+    }
+    &__texto {
+        .text--big {
+            padding-top: 20px;
+            font-weight: 700;
+            padding-bottom: 15px;
+        }
+    }
+}
